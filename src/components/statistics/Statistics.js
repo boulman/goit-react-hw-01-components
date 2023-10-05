@@ -2,7 +2,6 @@ import React from 'react';
 import style from './Statistics.module.css';
 
 export default function Statistics({ title = '', stats }) {
-  console.log(stats);
   return (
     <section className={style.statistics}>
       {title && <h2 className={style.title}>Upload stats</h2>}
